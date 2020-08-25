@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Reset Password</title>
+<link rel="stylesheet" href="master.css" />
+</head>
+<body>
+
+<form name="frm" id="frm" method="post" action="UpdatePassword">
+<h2>Reset Password</h2><br>
+Enter Username:<input type="text" name="uname" id="uname" required><br>
+Old Password:<input type="password" name="pwd0" id="pwd0" required><br>
+New Password:<input type="password" name="pwd" id="pwd" required><br>
+Confirm New Password:<input type="password" name="pwd1" id="pwd1" onkeyup="pass()" required><span id="msg"></span><br>
+<input type="submit" value="Change Password" style="width:200px;"> <br>
+<a href="index.html">Login here</a> &nbsp;&nbsp;&nbsp;<a href="newUser.html">New user</a>
+</form>
+
+<script src="master.js"></script>
+</body>
+</html>

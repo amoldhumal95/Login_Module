@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New User</title>
+<link rel="stylesheet" href="master.css" />
+</head>
+<body>
+
+<form name="frm" id="frm" method="post" action="AddUser">
+<h2>Add New User</h2><br>
+User name:<input type="text" name="uname" id="uname" required><br>
+Password:<input type="password" name="pwd" id="pwd" required><br>
+Confirm Password:<input type="password" name="pwd1" id="pwd1" onkeyup="pass()" required><span id="msg"></span><br>
+<input type="submit" value="Add User" style="width:110px;"> <br>
+<a href="index.html">Login here</a> &nbsp;&nbsp;&nbsp;<a href="resetPass.html">Change Password</a>
+</form>
+
+
+<script src="master.js"></script>
+</body>
+</html>
